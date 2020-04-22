@@ -18,6 +18,8 @@ public class SignInTest
 		
     	SingIn login=PageFactory.initElements(driver, SingIn.class);
 		
+    	System.out.println("Hello SignIN PAge");
+    	
 		login.logincheck("aaa@gmail.com", "aaa");
 		
 		String url=driver.getCurrentUrl();
