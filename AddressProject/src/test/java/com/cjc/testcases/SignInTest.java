@@ -22,6 +22,9 @@ public class SignInTest
     	
 		login.logincheck("aaa@gmail.com", "aaa");
 		
+		System.out.println("GIT Change");
+		
+		
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
 		
