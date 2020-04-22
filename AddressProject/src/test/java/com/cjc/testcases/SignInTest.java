@@ -18,7 +18,7 @@ public class SignInTest
 		
     	SingIn login=PageFactory.initElements(driver, SingIn.class);
 		
-    	System.out.println("Hello SignIN PAge");
+    	System.out.println("Hello SignIN PAge login");
     	
 		login.logincheck("aaa@gmail.com", "aaa");
 		
